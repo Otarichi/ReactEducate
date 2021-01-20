@@ -26,11 +26,11 @@ function App() {
         <Route path="/cnn">
           <NEWS source="cnn"></NEWS>
         </Route>
-        <Route>
-          <SendNews path="/send_news"></SendNews>
+        <Route path="/send_news">
+          <SendNews></SendNews>
         </Route>
-        <Route>
-          <AboutAuthor name="oto" surname="gvazava" age="20" university="BTU" path="/about_author"></AboutAuthor>
+        <Route path="/about_author">
+          <AboutAuthor name="oto" surname="gvazava" age="20" university="BTU"></AboutAuthor>
         </Route>
         <Footer></Footer>
       </div>
